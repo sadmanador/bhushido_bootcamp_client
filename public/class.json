@@ -1,0 +1,56 @@
+[
+  {
+    "image": "assets/image/banner/aikido.jpg",
+    "name": "Aikido",
+    "email":"sample@bushido.com",
+    "instructor": "Sensei Hiroshi Tanaka",
+    "instructor_img": "https://images.unsplash.com/photo-1554302242-40743152783a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=686&q=80",
+    "seats": 15,
+    "price": 149.99
+  },
+  {
+    "image": "assets/image/banner/judo.jpg",
+    "name": "Judo",
+    "email":"sample@bushido.com",
+    "instructor": "Sensei Akiko Yamamoto",
+    "instructor_img": "https://images.unsplash.com/photo-1554302242-40743152783a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=686&q=80",
+    "seats": 12,
+    "price": 159.99
+  },
+  {
+    "image": "assets/image/banner/kung_fu.jpg",
+    "name": "Kung Fu",
+    "email":"sample@bushido.com",
+    "instructor": "Sifu Li Wei",
+    "instructor_img": "https://images.unsplash.com/photo-1554302242-40743152783a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=686&q=80",
+    "seats": 18,
+    "price": 169.99
+  },
+  {
+    "image": "assets/image/banner/sumo.jpg",
+    "name": "Sumo",
+    "email":"sample@bushido.com",
+    "instructor": "Yokozuna Takeshi Tanaka",
+    "instructor_img": "https://images.unsplash.com/photo-1554302242-40743152783a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=686&q=80",
+    "seats": 10,
+    "price": 179.99
+  },
+  {
+    "image": "assets/image/banner/taekwondo.webp",
+    "name": "Taekwondo",
+    "email":"sample@bushido.com",
+    "instructor": "Master Jung Soo Park",
+    "instructor_img": "https://images.unsplash.com/photo-1554302242-40743152783a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=686&q=80",
+    "seats": 20,
+    "price": 189.99
+  },
+  {
+    "image": "assets/image/banner/kendo.jpg",
+    "name": "Kendo",
+    "email":"sample@bushido.com",
+    "instructor": "Sensei Takeshi Nakamura",
+    "instructor_img": "https://images.unsplash.com/photo-1554302242-40743152783a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=686&q=80",
+    "seats": 0,
+    "price": 199.99
+  }
+]

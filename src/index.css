@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-custom {
+    @apply btn hover:bg-zinc-400 hover:text-zinc-700 bg-zinc-800 border-none text-zinc-300 rounded-none;
+  }
+}
+
+.active {
+  border-radius: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
