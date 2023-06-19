@@ -50,7 +50,7 @@ const UserContext = ({ children }) => {
       setUser(currentUser);
       if (currentUser) {
         axios
-          .post("https://server-five-lemon.vercel.app/jwt", {
+          .post("http://localhost:5000/jwt", {
             email: currentUser?.email,
           })
           .then((data) => {

@@ -20,18 +20,16 @@ const SocialLogin = () => {
           photoURL: user?.photoURL,
         };
 
-        axios
-          .post("https://server-five-lemon.vercel.app/students", userInfo)
-          .then((res) => {
-            if (res.data.insertedId) {
-              Swal.fire(
-                "Logged in!",
-                `${user?.email} successfully Logged it!`,
-                "success"
-              );
-              navigate("/");
-            }
-          });
+        axios.post("http://localhost:5000/students", userInfo).then((res) => {
+          if (res.data.insertedId) {
+            Swal.fire(
+              "Logged in!",
+              `${user?.email} successfully Logged it!`,
+              "success"
+            );
+            navigate("/");
+          }
+        });
       })
       .catch((error) => {
         setError(error.message);

@@ -21,7 +21,7 @@ const ClassTable = ({ item }) => {
     }).then((result) => {
       if (result.isConfirmed) {
         axios
-          .delete(`https://server-five-lemon.vercel.app/taken-courses/${id}`)
+          .delete(`http://localhost:5000/taken-courses/${id}`)
           .then((res) => {
             const data = res.data;
             if (data.deletedCount > 0) {

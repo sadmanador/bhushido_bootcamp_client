@@ -8,9 +8,7 @@ const useClasses = () => {
   } = useQuery({
     queryKey: ["classes"],
     queryFn: async () => {
-      const res = await fetch(
-        "https://server-five-lemon.vercel.app/classes/all"
-      );
+      const res = await fetch("http://localhost:5000/classes/all");
       return res.json();
     },
   });

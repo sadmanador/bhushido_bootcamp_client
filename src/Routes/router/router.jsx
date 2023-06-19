@@ -29,7 +29,7 @@ export const router = createBrowserRouter([
         path: "/",
         element: <Home></Home>,
         loader: async () =>
-          await fetch("https://server-five-lemon.vercel.app/classes/top-six"),
+          await fetch("http://localhost:5000/classes/top-six"),
       },
       {
         path: "/login",
@@ -42,14 +42,12 @@ export const router = createBrowserRouter([
       {
         path: "/instructors",
         element: <Instructors></Instructors>,
-        loader: async () =>
-          await fetch("https://server-five-lemon.vercel.app/classes"),
+        loader: async () => await fetch("http://localhost:5000/classes"),
       },
       {
         path: "/classes",
         element: <Classes></Classes>,
-        loader: async () =>
-          await fetch("https://server-five-lemon.vercel.app/classes"),
+        loader: async () => await fetch("http://localhost:5000/classes"),
       },
     ],
   },
