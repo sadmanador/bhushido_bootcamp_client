@@ -1,3 +1,4 @@
+import Gallery from "../Gallery/Gallery";
 import HeaderPoster from "../HeaderPoster/HeaderPoster";
 import Message from "../Message/Message";
 import OurPartners from "../OurPartners/OurPartners";
@@ -11,6 +12,7 @@ const Home = () => {
       <TopClasses></TopClasses>
       <OurPartners/>
       <TopInstructor></TopInstructor>
+      <Gallery/>
       <Message/>
     </>
   );

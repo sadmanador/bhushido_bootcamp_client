@@ -52,7 +52,10 @@ const Register = () => {
             const currentUser = result.user;
 
             axios
-              .post("http://localhost:5000/students", studentInfo)
+              .post(
+                "https://server-five-lemon.vercel.app/students",
+                studentInfo
+              )
               .then((res) => {
                 console.log(res.data);
               });

@@ -26,7 +26,7 @@ const ClassCard = ({ item }) => {
         userName: user?.displayName,
         userId: user?.uid,
       };
-      fetch("http://localhost:5000/taken-courses", {
+      fetch("https://server-five-lemon.vercel.app/taken-courses", {
         method: "POST",
         headers: {
           "content-type": "application/json",
