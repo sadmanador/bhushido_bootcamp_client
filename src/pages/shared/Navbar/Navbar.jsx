@@ -18,13 +18,13 @@ const Navbar = () => {
 
   const navOptions = (
     <>
-      <li className="text-[#c33827] text-xl">
+      <li className="nav-btn">
         <NavLink to="/">Home</NavLink>
       </li>
-      <li className="text-[#c33827] text-xl">
+      <li className="nav-btn">
         <NavLink to="/classes">Classes</NavLink>
       </li>
-      <li className="text-[#c33827] text-xl">
+      <li className="nav-btn">
         <NavLink to="/instructors">Instructors</NavLink>
       </li>
     </>
@@ -63,13 +63,13 @@ const Navbar = () => {
           </div>
         </div>
         <a className="normal-case lg:text-xl text-[#c33827] font-bold ml-3">
-          Bushido Bootcamp
+          Bushido <br /> Bootcamp
         </a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 space-x-3">{navOptions}</ul>
       </div>
-      <div className="navbar-end">
+      <div className="navbar-end ">
         {user?.email ? (
           <>
             <div className="dropdown dropdown-end mr-2">
@@ -127,8 +127,8 @@ const Navbar = () => {
             </div>
           </>
         ) : (
-          <Link to="/login">
-            <button className="btn lg:btn-custom normal-case btn-sm">
+          <Link to="/login" className="">
+            <button className="text-xl font-semibold py-2 px-4 rounded-lg normal-case bg-[#c33827] hover:bg-[#c33927b1] hover:text-base-300">
               Login
             </button>
           </Link>

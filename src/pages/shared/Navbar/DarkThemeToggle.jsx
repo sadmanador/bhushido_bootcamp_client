@@ -11,9 +11,9 @@ const DarkThemeToggle = () => {
   }, [theme]);
   return (
     <div className="ml-4 text-center">
-      <input type="checkbox" className="toggle block" onClick={toggleTheme} />
+      <input type="checkbox" className="toggle block bg-[#c33827]" onClick={toggleTheme} />
       <p>
-        <small>Dark / Light</small>
+        <small className="text-white">Dark / Light</small>
       </p>
     </div>
   );

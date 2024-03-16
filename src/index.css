@@ -3,9 +3,11 @@
 @tailwind utilities;
 
 @layer components {
-  .btn-custom {
-    @apply btn hover:bg-zinc-400 hover:text-zinc-700 bg-zinc-800 border-none text-zinc-300 rounded-none;
+  .nav-btn {
+    @apply text-[#c33827] text-xl font-semibold hover:rounded-lg hover:bg-[#c33827] hover:text-base-300;
   }
+
+
 }
 
 .active {
