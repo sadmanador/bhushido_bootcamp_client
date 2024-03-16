@@ -5,30 +5,33 @@ import useAdmin from "../../../hooks/useAdmin";
 import useInstructor from "../../../hooks/useInstructor";
 import DarkThemeToggle from "./DarkThemeToggle";
 
+// #c33827 navbar color-bg
+// ##2B3440
+
 const Navbar = () => {
   const { user, logOut } = useAuth();
   const { busket } = useBusket();
   const [isAdmin] = useAdmin();
   const [isInstructor] = useInstructor();
 
-  console.log(isAdmin)
+  console.log(isAdmin);
 
   const navOptions = (
     <>
-      <li>
+      <li className="text-[#c33827] text-xl">
         <NavLink to="/">Home</NavLink>
       </li>
-      <li>
+      <li className="text-[#c33827] text-xl">
         <NavLink to="/classes">Classes</NavLink>
       </li>
-      <li>
+      <li className="text-[#c33827] text-xl">
         <NavLink to="/instructors">Instructors</NavLink>
       </li>
     </>
   );
 
   return (
-    <div className="navbar bg-base-300 fixed z-10 lg:px-24">
+    <div className="navbar bg-[#2B3440] fixed z-10 lg:px-24">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -59,7 +62,9 @@ const Navbar = () => {
             <img src="assets/image/logo/logo.jpg" alt="" />
           </div>
         </div>
-        <a className="normal-case lg:text-xl">Bushido Bootcamp</a>
+        <a className="normal-case lg:text-xl text-[#c33827] font-bold ml-3">
+          Bushido Bootcamp
+        </a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 space-x-3">{navOptions}</ul>
@@ -123,7 +128,9 @@ const Navbar = () => {
           </>
         ) : (
           <Link to="/login">
-            <button className="btn lg:btn-custom normal-case btn-sm">Login</button>
+            <button className="btn lg:btn-custom normal-case btn-sm">
+              Login
+            </button>
           </Link>
         )}
         <DarkThemeToggle></DarkThemeToggle>

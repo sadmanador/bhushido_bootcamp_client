@@ -3,7 +3,7 @@ const InstructorCard = ({ item, email }) => {
   return (
     <div className="card lg:w-96 glass shadow-xl rounded-3xl rounded-tl-none rounded-br-none lg:m-0 m-4">
       <div className="avatar">
-        <div className="lg:w-96 rounded-full">
+        <div className="lg:w-96 rounded">
           <img src={instructor_img} />
         </div>
       </div>
