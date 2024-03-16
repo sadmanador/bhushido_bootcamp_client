@@ -62,7 +62,7 @@ const Navbar = () => {
             <img src="assets/image/logo/logo.jpg" alt="" />
           </div>
         </div>
-        <a className="normal-case lg:text-xl text-[#c33827] font-bold ml-3">
+        <a className="normal-case lg:text-xl text-[#c33827] font-bold ml-3 russo-one-regular leading-none hover:text-base-300">
           Bushido <br /> Bootcamp
         </a>
       </div>
@@ -128,7 +128,7 @@ const Navbar = () => {
           </>
         ) : (
           <Link to="/login" className="">
-            <button className="text-xl font-semibold py-2 px-4 rounded-lg normal-case bg-[#c33827] hover:bg-[#c33927b1] hover:text-base-300">
+            <button className="text-xl font-semibold py-2 px-4 rounded-lg normal-case bg-[#c33827] hover:shadow-inner  hover:text-base-300 russo-one-regular">
               Login
             </button>
           </Link>
