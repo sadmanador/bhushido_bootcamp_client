@@ -18,7 +18,7 @@ const HeaderPoster = () => {
               delay={1e3}
               cascade
               damping={1e-1}
-              className="text-3xl font-semibold lg:text-4xl mb-5"
+              className="text-3xl font-semibold lg:text-4xl mb-5 russo-one-regular"
             >
               Discover the Way of the Warrior at <br />
               <span>Bushido Bootcamp</span>: Unleash Your Potential!
